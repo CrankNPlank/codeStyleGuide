@@ -4,6 +4,23 @@ The following articles and repos heavily influenced the development of this
 style guide:
 * [Meteor.js Code Style](https://guide.meteor.com/code-style.html)
 
+## Meteor Version*
+
+To check the version of Meteor for a specific project, run the following from 
+the root directory:
+
+```bash
+$ cat .meteor/release
+```
+
+To update the global Meteor installation, run the following:
+
+```bash
+$ meteor --version
+```
+
+*Taken from [StackOverflow](http://stackoverflow.com/questions/18290255/how-do-you-check-which-version-of-meteor-you-are-running)
+
 ## Collections
 
 Collections should be named as a plural noun, in 
